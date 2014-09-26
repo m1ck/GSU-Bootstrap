@@ -1,0 +1,140 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #0038aa;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Georgia State University UI */
+
+
+.navbar {    
+      position: relative;
+      min-height: 45px;
+      margin-bottom: 20px;
+      border: 1px solid transparent;
+    }  
+.logo {
+    background-image: url("data:image/png;base64,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");
+    width: 124px;
+    padding-top: 43px;
+    margin-bottom: -8px;
+    margin-top: 0px;
+    border-left: solid 0px rgba(0, 0, 0, 0);
+}
+
+.navbar {
+background-image: linear-gradient(to bottom, #ffffff, #dfdfe0);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdfdfe0', GradientType=0);
+background-color: #f2f2f3;
+background-image: -moz-linear-gradient(top, #ffffff, #dfdfe0);
+background-image: -ms-linear-gradient(top, #ffffff, #dfdfe0);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#dfdfe0));
+background-image: -webkit-linear-gradient(top, #ffffff, #dfdfe0);
+background-image: -o-linear-gradient(top, #ffffff, #dfdfe0);
+background-image: linear-gradient(top, #ffffff, #dfdfe0);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dfdfe0', GradientType=0);
+color: #333333;
+}
+
+
+
+.navbar-nav>li>a {
+padding-top: 0px;
+border-right: solid 1px rgba(0, 0, 0, 0.2);
+color: #333333;
+position: relative;
+display: block;
+padding: 13px 15px;
+font-size: 11px;
+font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+color: #333333;
+background-color: #d8d3c8;
+ text-decoration: underline;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #0038aa;
+border-color: #0038aa;
+}
